@@ -15,7 +15,7 @@ namespace AlgorithmPrograms
             {
                 Console.WriteLine("=-=-=-=-=-=-=-=Data Sructures Algorithm Programs=-=-=-=-=-=-=-=");
 
-                Console.WriteLine("1.Binary Search\n2.InsertionSort\n3.Bubble Sort\n");
+                Console.WriteLine("1.Binary Search\n2.InsertionSort\n3.Bubble Sort\n4.Anagram\n");
                 Console.WriteLine("Enter Your Option");
                 int num = Convert.ToInt32(Console.ReadLine());
                 switch (num)
@@ -69,6 +69,10 @@ namespace AlgorithmPrograms
                             Console.Write(arry + " ");
                         }
                         BubbleSort.BubbSort(array, size);
+                        break;
+
+                    case 4:
+                        Console.WriteLine(Anagram.IsAnagram("Jupiter","rupjite"));
                         break;
 
                     default:
