@@ -11,6 +11,7 @@ namespace AlgorithmPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("=-=-=-=-=-=-=-=Data Sructures Algorithm Programs=-=-=-=-=-=-=-=");
+            Console.ReadLine();
         }
     }
 }
